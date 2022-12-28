@@ -1,6 +1,6 @@
 module github.com/zeyaddesigns/NatlusGamesWebsite
 
-replace github.com/kdevo/osprey-delight/v5 => Users\ZeyadAlsultan\Dropbox\Dev Hub\Websites\NatlusGamesWebsite
+replace github.com/kdevo/osprey-delight/v5 => Users/ZeyadAlsultan/Dropbox/Dev Hub/Websites/NatlusGamesWebsite
 
 go 1.19
 
