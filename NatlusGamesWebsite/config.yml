@@ -1,7 +1,6 @@
 title: "Osprey Delight Demo"
 baseURL: "https://example.com"
 languageCode: "en-US"
-theme: "github.com/kdevo/osprey-delight/v5"
 tags: ["personal", "homepage", "portfolio"]
 #canonifyURLS: true
 #googleAnalytics: ""
