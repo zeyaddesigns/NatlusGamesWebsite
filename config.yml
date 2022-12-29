@@ -29,16 +29,16 @@ Params:
 
   # logoSmall is the logo that will be shown in the left corner of the nav bar.
   #   Use a path relative to the assets dir for auto-resizing.
-  logoSmall: "logo.png"
+  # logoSmall: "logo.png"
   
   # background can optionally be specified as an image layer behind logoBig at the top of the page (parallax effect).
   #background: "background.jpg"
   
   # opengraphImage specifies the image that is shown when previewing the site in a messenger or Google Search.
-  opengraphImage: "/images/osprey-delight.png"
+  #opengraphImage: "/images/osprey-delight.png"
 
   # favicon of the site (e.g. smaller version of logoSmall).
-  favicon: "favicon.png"
+  # favicon: "favicon.png"
 
   # theme your site by choosing one of the themes under assets/sass/themes:
   #   - delight is the light version of osprey-delight
@@ -50,7 +50,7 @@ Params:
   # tagline: "Welcome!"
   # mdTagline can be used instead to specify the tagline in Markdown for more customizability.
   #   Note that {cursor} is a placeholder and will be replaced by the actual cursor HTML when rendering.
-  mdTagline: "## we make games{cursor}"
+  mdTagline: "## we make games!{cursor}"
 
   # enforceSinglePage will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html' which might not be what you want for a *single* page site. 
@@ -61,7 +61,7 @@ Params:
   copyright: true
 
   # credit to the theme. If you want to support the theme by please leave this in, it's kept very tiny and short.
-  # credit: true
+  credit: false
 
 ## Social links in footer:
 ##   The type specifies the icon to use. For more information, see: 
@@ -69,21 +69,23 @@ Params:
   Social:
   - type: twitter # references the icon to use
     url: ""
-  - type: linkedin 
-    url: ""
-  - type: github
-    url: "https://github.com/hugo-mods/"
-  - type: heart
-    url: "https://github.com/sponsors/kdevo"
-  - type: stackoverflow  
-    url: ""
-  - type: spotify
-    url: https://open.spotify.com/artist/5NhBOdJh6T1tgtM5Au1Opl
+  - type: mail # references the icon to use
+    url: mailto:contact@natlusgames.com
+  # - type: linkedin 
+  #   url: ""
+  # - type: github
+  #   url: "https://github.com/hugo-mods/"
+  # - type: heart
+  #   url: "https://github.com/sponsors/kdevo"
+  # - type: stackoverflow  
+  #   url: ""
+  # - type: spotify
+  #   url: https://open.spotify.com/artist/5NhBOdJh6T1tgtM5Au1Opl
 
 ## Additional theme features:
   Feat:
     # ajaxBasin requires Basin setup for a free contact form (see instructions in README).
-    ajaxBasin: "https://usebasin.com/f/{YOUR-12-CHAR-FORM-KEY-HERE}"
+    # ajaxBasin: "https://usebasin.com/f/{YOUR-12-CHAR-FORM-KEY-HERE}"
 
     # useStructuredData for your own https://schema.org/Person (SEO-friendly).
     #   This will be auto-generated dependent on the information you provide in this configuration.
@@ -106,7 +108,7 @@ Params:
   # Image resizing can be configured here (see README for more info):
   Image:
     Logo:
-      resize: "400x"
+      resize: ""
 
     Gallery:
       resize: "600x"
@@ -136,25 +138,25 @@ Params:
 ##   See: https://gohugo.io/content-management/menus/#add-content-to-menus
 Menu:
   Main:
-    - name: "About"
+    - name: ""
       # identifier controls the section type (and therewith the appearence).
       identifier: about 
       # url must be an anchor, for smooth scrolling to it when clicking on the menu item.
-      url: "/#about"
+      #url: "/#about"
       # weight controls the order of the menu items.
-      weight: 1
-    - name: "Work"
-      identifier: gallery
-      url: "/#work"
-      weight: 2
-    - name: "Blog"
-      identifier: blog
-      url: "/#blog"
-      weight: 3
-    - name: "Contact"
-      identifier: contact
-      url: "/#contact"
-      weight: 4
+      #weight: 1
+    # - name: "Work"
+    #   identifier: gallery
+    #   url: "/#work"
+    #   weight: 2
+    # - name: "Blog"
+    #   identifier: blog
+    #   url: "/#blog"
+    #   weight: 3
+    # - name: "Contact"
+    #   identifier: contact
+    #   url: "/#contact"
+    #   weight: 4
     # - name: ""
     #   # pre makes it possible to use arbitrary HTML before the name, e.g. referencing icons here is possible:
     #   pre: '<svg class="icon"><use xlink:href="#icon-external"/></svg>&nbsp;'

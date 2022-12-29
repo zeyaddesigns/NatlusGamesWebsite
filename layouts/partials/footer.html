@@ -13,7 +13,7 @@
     <div class="col-xs">
       <small>
       {{ if .Site.Params.copyright }}
-        {{ i18n "copyright" }} &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+      {{ .Site.Title }} {{ i18n "" }} &copy; {{ now.Format "2006" }}
       {{ end }}
       {{ if or (.Site.Params.credit) (eq (isset .Site.Params "credit") false) -}}
       <div class="col-xs">
