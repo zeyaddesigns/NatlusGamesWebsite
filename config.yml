@@ -32,7 +32,7 @@ Params:
   # logoSmall: "logo.png"
   
   # background can optionally be specified as an image layer behind logoBig at the top of the page (parallax effect).
-  #background: "background.jpg"
+  #background: "background.png"
   
   # opengraphImage specifies the image that is shown when previewing the site in a messenger or Google Search.
   #opengraphImage: "/images/osprey-delight.png"
