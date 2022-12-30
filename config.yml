@@ -25,7 +25,7 @@ Params:
   description: "Osprey Delight: Example Site"
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing. 
-  logoBig: "WebsiteLogo2.png"
+  logoBig: "WebsiteLogoColored.png"
 
   # logoSmall is the logo that will be shown in the left corner of the nav bar.
   #   Use a path relative to the assets dir for auto-resizing.
