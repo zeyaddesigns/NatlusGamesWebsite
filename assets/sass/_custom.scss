@@ -1,3 +1,14 @@
 
 // Syntax-highlighting:
-@import "solarized"
+@import "solarized";
+@import "fontface";
+
+/* silkscreen-regular - latin */
+.font-face {
+    font-family: 'Silkscreen';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Silkscreen regular'),
+         url('../static/fonts/silkscreen/silkscreen-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../static/fonts/silkscreen/silkscreen-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+  }
