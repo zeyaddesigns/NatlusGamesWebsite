@@ -21,8 +21,8 @@ module:
 
 ## Generic theme parameters:
 Params:
-  author: "kdevo"
-  description: "Osprey Delight: Example Site"
+  #author: "kdevo"
+  #description: "Osprey Delight: Example Site"
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing. 
   logoBig: "../assets/WebsiteLogoColored.png"
@@ -45,12 +45,12 @@ Params:
   #   - dedark is the dark version of "delight"
   #   - origin is the legacy version (similar to https://github.com/tomanistor/osprey)
   theme: "dedark"
-
   # tagline (followed by a cursor) is shown at the top, below the logo
-  # tagline: "Welcome!"
+  tagline: We make games
   # mdTagline can be used instead to specify the tagline in Markdown for more customizability.
   #   Note that {cursor} is a placeholder and will be replaced by the actual cursor HTML when rendering.
-  mdTagline: "## we make games{cursor}"
+  #mdTagline:  "## We Make Games{cursor}"
+  #mdTagline:  We Make Games{cursor}
 
   # enforceSinglePage will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html' which might not be what you want for a *single* page site. 

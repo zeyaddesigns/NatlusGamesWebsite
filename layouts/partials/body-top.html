@@ -12,7 +12,7 @@
           {{ with .Site.Params.mdTagline -}}
               {{ (replace (. | markdownify) "{cursor}" "<span class=\"cursor\">|</span>") | safeHTML }}
           {{- else -}}
-              <h1>{{ .Site.Params.tagline }}<span class="cursor">|</span></h1>
+              <h1 id="myfont">{{ .Site.Params.tagline }}<span>&#128513</span><span class="cursor">|</span></h1>
           {{- end }}
           <noscript>
           <h2>{{ partial "icon" "warning" }}</h2>
