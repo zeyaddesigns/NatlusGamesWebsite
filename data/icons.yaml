@@ -4,6 +4,7 @@ bandcamp: fab bandcamp
 heart: fas heart
 gift: fas gift
 mail: fas mail
+twitter: fas twitter
 
 # This rocket will be displayed in the about section (see about.md):
 rocket: fas rocket

@@ -12,7 +12,10 @@
           {{ with .Site.Params.mdTagline -}}
               {{ (replace (. | markdownify) "{cursor}" "<span class=\"cursor\">|</span>") | safeHTML }}
           {{- else -}}
-              <h1 id="myfont">{{ .Site.Params.tagline }}<span>&#128513</span><span class="cursor">|</span></h1>
+              <h1 id="myfont"> {{ .Site.Params.tagline }}
+                               <span style="color: white;"> is a family oriented <br>indie game studio based in Scotland, UK.</span>
+                               <span class="cursor"; style="color: white;">|</span>
+              </h1>
           {{- end }}
           <noscript>
           <h2>{{ partial "icon" "warning" }}</h2>

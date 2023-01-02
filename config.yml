@@ -46,7 +46,7 @@ Params:
   #   - origin is the legacy version (similar to https://github.com/tomanistor/osprey)
   theme: "dedark"
   # tagline (followed by a cursor) is shown at the top, below the logo
-  tagline: We make games
+  tagline: Natlus Games
   # mdTagline can be used instead to specify the tagline in Markdown for more customizability.
   #   Note that {cursor} is a placeholder and will be replaced by the actual cursor HTML when rendering.
   #mdTagline:  "## We Make Games{cursor}"
@@ -145,7 +145,7 @@ Menu:
       #url: "/#about"
       # weight controls the order of the menu items.
       #weight: 1
-    # - name: "Work"
+    # - name: "Projects"
     #   identifier: gallery
     #   url: "/#work"
     #   weight: 2
