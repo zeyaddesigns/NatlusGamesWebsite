@@ -29,7 +29,7 @@ Params:
 
   # logoSmall is the logo that will be shown in the left corner of the nav bar.
   #   Use a path relative to the assets dir for auto-resizing.
-  # logoSmall: "logo.png"
+  #logoSmall: "logo.png"
   
   # background can optionally be specified as an image layer behind logoBig at the top of the page (parallax effect).
   #background: "background.png"
