@@ -38,7 +38,7 @@ Params:
   #opengraphImage: "/images/osprey-delight.png"
 
   # favicon of the site (e.g. smaller version of logoSmall).
-  favicon: "BrowserFavicon.png"
+  favicon: "../assets/BrowserFavicon.png"
 
   # theme your site by choosing one of the themes under assets/sass/themes:
   #   - delight is the light version of osprey-delight
